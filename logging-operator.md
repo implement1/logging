@@ -1,9 +1,5 @@
 # Logging with Logging Operator and Fluentd
 
-TODO: Intro
-
-## Setup
-
 * Install `gum` by following the instructions in https://github.com/charmbracelet/gum#installation.
 
 ```bash

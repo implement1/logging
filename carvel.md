@@ -1,9 +1,5 @@
 # Logging with Logging Operator, Fluentd, and Carvel YTT
 
-TODO: Intro
-
-## Do
-
 ```bash
 yq --inplace ".logging.enabled = true" ytt/values-prod.yaml
 
@@ -34,6 +30,4 @@ echo "http://grafana.$INGRESS_HOST"
 * Choose `Loki` as the data source
 * Filter by `app_kubernetes_io_name` set to `cncf-demo`
 * Search for `something`
-
-## Continue The Adventure
 

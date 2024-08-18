@@ -1,9 +1,5 @@
 # Logging with Logging Operator, Fluentd, and Kustomize
 
-TODO: Intro
-
-## Do
-
 ```bash
 cat kustomize/overlays/prod/logging.yaml
 
@@ -34,5 +30,4 @@ echo "http://grafana.$INGRESS_HOST"
 * Filter by `app_kubernetes_io_name` set to `simple-app`
 * Search for `something`
 
-## Continue The Adventure
 

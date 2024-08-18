@@ -1,7 +1,5 @@
 # Logging
 
-Intro
-
 ## Choice 1: Fluentd
 
 Description

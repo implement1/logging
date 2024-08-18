@@ -1,9 +1,5 @@
 # Logging with Logging Operator, Fluentd, and Carvel YTT
 
-TODO: Intro
-
-## Do
-
 ```bash
 # Execute only if using Argo CD
 yq --inplace \
@@ -38,6 +34,3 @@ echo "http://grafana.$INGRESS_HOST"
 * Filter by `app_kubernetes_io_name` set to `cncf-demo`
 * Search for `something`
 
-## Continue The Adventure
-
-TODO:
